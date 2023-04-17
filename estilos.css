@@ -1,0 +1,28 @@
+body{margin: 0;}
+p{margin: 0;}
+h1{text-align: center;}
+header{
+	height: 70vh;
+	background-image: url(Caniche.jpeg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	font-size: 60px;
+	color: #43F7EC;
+}
+.tarjeta{
+	text-align: center;
+	border: solid 1px #FC22A7;
+	height: 200px;
+	width: 20%;
+	border-radius: 20px;
+	        /*derecha abajo difuminacion color*/
+	box-shadow:0 3px 10px #AB65C3;
+
+}
+.primera-linea{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;/*espacio igual de separacion*/
+	margin-top: 10px;
+}
